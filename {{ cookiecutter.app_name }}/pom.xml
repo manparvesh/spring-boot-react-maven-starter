@@ -15,8 +15,8 @@
         <version>1.5.4.RELEASE</version>
         <relativePath/>
     </parent>
-    <groupId>com.example.app</groupId>
-    <artifactId>spring-boot-react-app</artifactId>
+    <groupId>{{ cookiecutter.package_name }}</groupId>
+    <artifactId>{{ cookiecutter.app_name }}</artifactId>
     <version>0.1.0-SNAPSHOT</version>
 
     <properties>

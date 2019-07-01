@@ -1,4 +1,4 @@
-package com.example.app.resources;
+package {{ cookiecutter.package_name }}.resources;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,0 +1,7 @@
+{
+  "app_name": "MyApplication",
+  "app_name_slug": "{{ cookiecutter.app_name | lower | replace(' ', '') }}",
+  "package_name": "com.manparvesh.{{ cookiecutter.app_name_slug }}",
+  "package_dir": "{{ cookiecutter.package_name | replace('.', '/') }}",
+  "_copy_without_render": [".mvn", ".mvn/", "*mvnw", "*mvnw.bat"]
+}

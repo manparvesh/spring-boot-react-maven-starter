@@ -1,4 +1,4 @@
-package com.example.app.resources;
+package {{ cookiecutter.package_name }}.resources;
 
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

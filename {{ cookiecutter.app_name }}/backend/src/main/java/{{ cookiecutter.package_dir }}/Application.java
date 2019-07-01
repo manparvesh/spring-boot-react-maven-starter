@@ -1,4 +1,4 @@
-package com.example.app;
+package {{ cookiecutter.package_name }};
 
 import java.lang.reflect.Method;
 
